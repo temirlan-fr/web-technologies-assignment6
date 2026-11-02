@@ -88,4 +88,16 @@ $(document).ready(function () {
         $("#skills-list li").last().remove();
         $("#skill-message").text("The last skill was removed.");
     });
+
+    $("#change-link").on("click", function () {
+        if ($("#social-link").attr("href") === "https://github.com/temirlan-fr") {
+            $("#social-link").attr("href", "https://github.com/temirlan-fr/web-technologies-assignment6");
+            $("#social-link").text("My Project Repository");
+        } else {
+            $("#social-link").attr("href", "https://github.com/temirlan-fr");
+            $("#social-link").text("My GitHub Profile");
+        }
+
+        $("#link-address").text($("#social-link").attr("href"));
+    });
 });

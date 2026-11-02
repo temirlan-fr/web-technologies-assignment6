@@ -189,6 +189,18 @@ body.dark-theme {
     margin-bottom: 10px;
 }
 
+#social-link {
+    color: #365b34;
+}
+
+.dark-theme #social-link {
+    color: #bdd7b5;
+}
+
+#link-address {
+    overflow-wrap: anywhere;
+}
+
 @media (max-width: 600px) {
     .container {
         margin: 25px auto;
