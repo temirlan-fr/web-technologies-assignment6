@@ -62,6 +62,76 @@ code {
     overflow-wrap: anywhere;
 }
 
+h3 {
+    margin: 0 0 15px;
+}
+
+.theme-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 16px;
+    border: 1px solid #365b34;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #365b34;
+    font: inherit;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #edf3e9;
+}
+
+button[aria-pressed="true"] {
+    background-color: #365b34;
+    color: #ffffff;
+}
+
+button:focus-visible {
+    outline: 3px solid #527baf;
+    outline-offset: 3px;
+}
+
+body.dark-theme {
+    background-color: #202720;
+    color: #eeeeee;
+}
+
+.dark-theme .card {
+    background-color: #2d352d;
+    border-color: #657261;
+}
+
+.dark-theme h1,
+.dark-theme .card h2,
+.dark-theme .eyebrow {
+    color: #bdd7b5;
+}
+
+.dark-theme code {
+    background-color: #202720;
+    color: #bdd7b5;
+}
+
+.dark-theme button {
+    background-color: #2d352d;
+    border-color: #bdd7b5;
+    color: #eeeeee;
+}
+
+.dark-theme button:hover {
+    background-color: #414e3d;
+}
+
+.dark-theme button[aria-pressed="true"] {
+    background-color: #bdd7b5;
+    color: #202720;
+}
+
 @media (max-width: 600px) {
     .container {
         margin: 25px auto;
