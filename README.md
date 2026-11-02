@@ -23,6 +23,10 @@ Task 3. Fade Methods
 
 Prepared a gallery for two local photos. The Fade In, Fade Out and Fade Toggle buttons use fadeIn, fadeOut and fadeToggle to control both images with a duration of 600 milliseconds.
 
+Task 4. Slide Methods
+
+Added three clickable headings about my HTML, CSS and jQuery practice. Each heading opens or closes the panel below it using slideToggle. Open All uses slideDown and Close All uses slideUp. Each animation lasts 400 milliseconds.
+
 Work process
 
-Created index.html, style.css and script.js. Connected the stylesheet and loaded jQuery before script.js. Added the profile section and theme buttons for Task 1. Added the About Me section and visibility buttons for Task 2. Added a photo gallery and fade effects for Task 3 while keeping the previous tasks visible.
+Created index.html, style.css and script.js. Connected the stylesheet and loaded jQuery before script.js. Added the profile section and theme buttons for Task 1. Added the About Me section and visibility buttons for Task 2. Added a photo gallery and fade effects for Task 3. Added collapsible panels and slide effects for Task 4 while keeping the previous tasks visible.

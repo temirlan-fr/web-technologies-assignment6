@@ -40,4 +40,16 @@ $(document).ready(function () {
     $("#fade-toggle").on("click", function () {
         $(".gallery img").fadeToggle(600);
     });
+
+    $(".slide-heading button").on("click", function () {
+        $(this).parent().next(".slide-panel").slideToggle(400);
+    });
+
+    $("#open-panels").on("click", function () {
+        $(".slide-panel").slideDown(400);
+    });
+
+    $("#close-panels").on("click", function () {
+        $(".slide-panel").slideUp(400);
+    });
 });

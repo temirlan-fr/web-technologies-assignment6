@@ -151,6 +151,27 @@ body.dark-theme {
     margin-bottom: 5px;
 }
 
+.slide-heading {
+    margin-bottom: 10px;
+}
+
+.slide-heading button {
+    width: 100%;
+    text-align: left;
+}
+
+.slide-panel {
+    display: none;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #cdd8c9;
+}
+
+.slide-buttons button {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
 @media (max-width: 600px) {
     .container {
         margin: 25px auto;
