@@ -58,4 +58,6 @@ Added three bars for HTML, CSS and JavaScript from the Task 5 skills list. All b
 
 Work process
 
+https://temirlan-fr.github.io/web-technologies-assignment6/
+
 Created index.html, style.css and script.js. Connected the stylesheet and loaded jQuery before script.js. Added the profile section and theme buttons for Task 1. Added the About Me section and visibility buttons for Task 2. Added a photo gallery and fade effects for Task 3. Added collapsible panels and slide effects for Task 4. Added an editable skills list for Task 5. Added a changing GitHub link for Task 6. Added a form with a live preview for Task 7. Added animated skill bars for Task 8 while keeping the previous tasks visible.
