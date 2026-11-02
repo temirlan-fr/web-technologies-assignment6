@@ -112,4 +112,20 @@ $(document).ready(function () {
     $("#contact-form").on("submit", function (event) {
         event.preventDefault();
     });
+
+    let skillsVisible = false;
+
+    $("#animate-skills").on("click", function () {
+        $(".skill-fill").stop(true);
+
+        if (skillsVisible === false) {
+            $("#html-skill").animate({ width: "80%" }, 1000);
+            $("#css-skill").animate({ width: "65%" }, 1000);
+            $("#javascript-skill").animate({ width: "50%" }, 1000);
+            skillsVisible = true;
+        } else {
+            $(".skill-fill").animate({ width: "0%" }, 1000);
+            skillsVisible = false;
+        }
+    });
 });

@@ -41,6 +41,12 @@ Task 7. Form Interaction
 
 Added a form with Name and Email inputs. The input event reads each value using val and displays it below the form using text. The preview updates while typing, pasting or deleting text. Form submission is prevented so the page does not reload.
 
+Part 4. Animations
+
+Task 8. Basic Animation
+
+Added three bars for HTML, CSS and JavaScript from the Task 5 skills list. All bars start at zero width. Animate My Skills uses animate to fill them to example levels of 80, 65 and 50 percent over one second. Clicking again animates all bars back to zero. The stop method prevents animations from building up when the button is clicked quickly.
+
 Work process
 
-Created index.html, style.css and script.js. Connected the stylesheet and loaded jQuery before script.js. Added the profile section and theme buttons for Task 1. Added the About Me section and visibility buttons for Task 2. Added a photo gallery and fade effects for Task 3. Added collapsible panels and slide effects for Task 4. Added an editable skills list for Task 5. Added a changing GitHub link for Task 6. Added a form with a live preview for Task 7 while keeping the previous tasks visible.
+Created index.html, style.css and script.js. Connected the stylesheet and loaded jQuery before script.js. Added the profile section and theme buttons for Task 1. Added the About Me section and visibility buttons for Task 2. Added a photo gallery and fade effects for Task 3. Added collapsible panels and slide effects for Task 4. Added an editable skills list for Task 5. Added a changing GitHub link for Task 6. Added a form with a live preview for Task 7. Added animated skill bars for Task 8 while keeping the previous tasks visible.

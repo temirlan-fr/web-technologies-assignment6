@@ -208,6 +208,18 @@ body.dark-theme {
     overflow-wrap: anywhere;
 }
 
+.skill-bar {
+    height: 20px;
+    margin-bottom: 20px;
+    background-color: #dce5d8;
+}
+
+.skill-fill {
+    width: 0;
+    height: 100%;
+    background-color: #527b49;
+}
+
 @media (max-width: 600px) {
     .container {
         margin: 25px auto;
