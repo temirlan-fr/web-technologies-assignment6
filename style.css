@@ -172,6 +172,23 @@ body.dark-theme {
     margin-bottom: 5px;
 }
 
+#skill-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 15px;
+    border: 1px solid #657261;
+    border-radius: 4px;
+    background-color: inherit;
+    color: inherit;
+    font: inherit;
+}
+
+.skill-buttons button {
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
 @media (max-width: 600px) {
     .container {
         margin: 25px auto;

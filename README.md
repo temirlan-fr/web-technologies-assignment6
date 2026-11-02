@@ -27,6 +27,12 @@ Task 4. Slide Methods
 
 Added three clickable headings about my HTML, CSS and jQuery practice. Each heading opens or closes the panel below it using slideToggle. Open All uses slideDown and Close All uses slideUp. Each animation lasts 400 milliseconds.
 
+Part 3. DOM Manipulation with jQuery
+
+Task 5. Add and Remove Elements
+
+Added an initial list of four technical skills and an input for new skills. Add Skill uses append to add an item to the end. Prepend Skill uses prepend to add an item to the beginning. Remove Skill uses remove to delete the last item. Empty entries and entries containing only spaces are rejected. New skills are inserted as text.
+
 Work process
 
-Created index.html, style.css and script.js. Connected the stylesheet and loaded jQuery before script.js. Added the profile section and theme buttons for Task 1. Added the About Me section and visibility buttons for Task 2. Added a photo gallery and fade effects for Task 3. Added collapsible panels and slide effects for Task 4 while keeping the previous tasks visible.
+Created index.html, style.css and script.js. Connected the stylesheet and loaded jQuery before script.js. Added the profile section and theme buttons for Task 1. Added the About Me section and visibility buttons for Task 2. Added a photo gallery and fade effects for Task 3. Added collapsible panels and slide effects for Task 4. Added an editable skills list for Task 5 while keeping the previous tasks visible.

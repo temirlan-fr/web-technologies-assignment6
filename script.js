@@ -52,4 +52,40 @@ $(document).ready(function () {
     $("#close-panels").on("click", function () {
         $(".slide-panel").slideUp(400);
     });
+
+    $("#add-skill").on("click", function () {
+        let skill = $("#skill-input").val().trim();
+
+        if (skill === "") {
+            $("#skill-message").text("Please enter a skill.");
+            return;
+        }
+
+        $("#skills-list").append($("<li>").text(skill));
+        $("#skill-input").val("");
+        $("#skill-message").text("Skill added to the end of the list.");
+    });
+
+    $("#prepend-skill").on("click", function () {
+        let skill = $("#skill-input").val().trim();
+
+        if (skill === "") {
+            $("#skill-message").text("Please enter a skill.");
+            return;
+        }
+
+        $("#skills-list").prepend($("<li>").text(skill));
+        $("#skill-input").val("");
+        $("#skill-message").text("Skill added to the beginning of the list.");
+    });
+
+    $("#remove-skill").on("click", function () {
+        if ($("#skills-list li").length === 0) {
+            $("#skill-message").text("There are no skills to remove.");
+            return;
+        }
+
+        $("#skills-list li").last().remove();
+        $("#skill-message").text("The last skill was removed.");
+    });
 });
