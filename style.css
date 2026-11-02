@@ -132,6 +132,11 @@ body.dark-theme {
     color: #202720;
 }
 
+.visibility-buttons button {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
 @media (max-width: 600px) {
     .container {
         margin: 25px auto;

@@ -16,4 +16,16 @@ $(document).ready(function () {
         $("#light-theme").attr("aria-pressed", "false");
         $("#dark-theme").attr("aria-pressed", "true");
     });
+
+    $("#hide-about").on("click", function () {
+        $("#about-details").hide();
+    });
+
+    $("#show-about").on("click", function () {
+        $("#about-details").show();
+    });
+
+    $("#toggle-about").on("click", function () {
+        $("#about-details").toggle();
+    });
 });
