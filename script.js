@@ -100,4 +100,16 @@ $(document).ready(function () {
 
         $("#link-address").text($("#social-link").attr("href"));
     });
+
+    $("#visitor-name").on("input", function () {
+        $("#preview-name").text($(this).val());
+    });
+
+    $("#visitor-email").on("input", function () {
+        $("#preview-email").text($(this).val());
+    });
+
+    $("#contact-form").on("submit", function (event) {
+        event.preventDefault();
+    });
 });

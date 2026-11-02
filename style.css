@@ -172,7 +172,8 @@ body.dark-theme {
     margin-bottom: 5px;
 }
 
-#skill-input {
+#skill-input,
+#contact-form input {
     display: block;
     width: 100%;
     padding: 10px;
@@ -198,6 +199,12 @@ body.dark-theme {
 }
 
 #link-address {
+    overflow-wrap: anywhere;
+}
+
+.form-preview {
+    padding: 15px;
+    border: 1px solid #cdd8c9;
     overflow-wrap: anywhere;
 }
 
