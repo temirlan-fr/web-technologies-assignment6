@@ -28,4 +28,16 @@ $(document).ready(function () {
     $("#toggle-about").on("click", function () {
         $("#about-details").toggle();
     });
+
+    $("#fade-in").on("click", function () {
+        $(".gallery img").fadeIn(600);
+    });
+
+    $("#fade-out").on("click", function () {
+        $(".gallery img").fadeOut(600);
+    });
+
+    $("#fade-toggle").on("click", function () {
+        $(".gallery img").fadeToggle(600);
+    });
 });

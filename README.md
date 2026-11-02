@@ -19,6 +19,10 @@ Task 2. Visibility Methods
 
 Added an About Me section with a short biography, a current status and facts about my studies and project goals. The Hide, Show and Toggle buttons use jQuery hide, show and toggle methods to control the status and facts. The biography and buttons stay visible.
 
+Task 3. Fade Methods
+
+Prepared a gallery for two local photos. The Fade In, Fade Out and Fade Toggle buttons use fadeIn, fadeOut and fadeToggle to control both images with a duration of 600 milliseconds.
+
 Work process
 
-Created index.html, style.css and script.js. Connected the stylesheet and loaded jQuery before script.js. Added the profile section and theme buttons for Task 1. Added the About Me section and visibility buttons for Task 2 while keeping the previous tasks visible.
+Created index.html, style.css and script.js. Connected the stylesheet and loaded jQuery before script.js. Added the profile section and theme buttons for Task 1. Added the About Me section and visibility buttons for Task 2. Added a photo gallery and fade effects for Task 3 while keeping the previous tasks visible.
